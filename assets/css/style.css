@@ -2408,6 +2408,7 @@ p {
 @media (max-width: 575px) {
   .features__item-2.fea-1 {
     margin-left: 0px;
+    width: 100%;
   }
 }
 
@@ -2432,6 +2433,7 @@ p {
   .features__item-2.fea-2 {
     margin-top: 30px;
     margin-left: 0;
+    width: 100%;
   }
 }
 
@@ -2467,6 +2469,7 @@ p {
 @media (max-width: 575px) {
   .features__item-2.fea-3 {
     margin-left: 0px;
+    width: 100%;
   }
 }
 
@@ -7439,15 +7442,8 @@ font-weight: 300;
 
     justify-content: center;
   }
-
- 
-  
-  
 }
 
 .tab-content{
   margin-top: 20px;
 }
-
-
-
