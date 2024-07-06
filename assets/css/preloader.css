@@ -46,6 +46,9 @@
 }
 @media (max-width: 575px){
 	#loading-center-absolute{
+		width: 100%;
+	}
+	.image-preloader{
 		width: 60%;
 	}
 }
