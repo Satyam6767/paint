@@ -5267,6 +5267,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 80px 0px;
 }
 
 .contact__bg {
@@ -5917,6 +5918,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   line-height: 0.9;
   color: #ffffff;
   margin-bottom: 62px;
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -7442,8 +7444,37 @@ font-weight: 300;
 
     justify-content: center;
   }
+
+  
 }
 
 .tab-content{
   margin-top: 20px;
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.forpaddingtopbottom{
+  padding: 70px 0px;
+}
+
+.forpaddingtopbottomcounter{
+  margin: 70px 0px;
+  padding: 20px 0px;
+}
+
+@media (max-width: 768px) {
+  .forpaddingtopbottom{
+    padding: 30px 0px;
+  }
+  .forpaddingtopbottomcounter{
+    margin: 30px 0px;
+    padding: 5px 0px;
+  }
+  
 }
