@@ -2714,7 +2714,7 @@ p {
   text-align: center;
   border: 2px solid #e8e8e8;
   color: #677a85;
-  font-size: 18px;
+  font-size: 40px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -5259,6 +5259,18 @@ p {
 .brand__item {
   text-align: center;
 }
+.brand__item img {
+  border: 2px solid black;
+  width: 170px;
+}
+
+@media (max-width: 575px) {
+  .brand__item img {
+    border: 1px solid black;
+    width: 120px;
+  }
+}
+
 
 /*----------------------------------------*/
 /*  13. CONTACT CSS START
@@ -7478,3 +7490,10 @@ input[type=number]::-webkit-inner-spin-button {
   }
   
 }
+
+.fa-circle-check{
+  font-size: 35px;
+  color: red;
+}
+
+
